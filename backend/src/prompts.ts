@@ -4,6 +4,8 @@ const noOfSlies = 4
 const userPromot = 'Create a presentation of waste management of India and how its impacting or society';
 console.log(currentDate)
 
+
+
 interface SlidesRequest {
     title: string;
     userPrompt: string;

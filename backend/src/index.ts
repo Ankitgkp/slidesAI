@@ -14,7 +14,8 @@ app.get('/test', (req, res) => {
 
 app.post('/send', async (req, res) => {
     const { prompt } = req.body;
-    if (!prompt) {
+    // add zod validation for prompt 
+    if (!prompt || typeof prompt !== 'string') {
         res.status(403).json({
             message: "Invalid inputs"
         })
