@@ -4,9 +4,9 @@ const noOfSlies = 4
 const userPromot = 'Create a presentation of waste management of India and how its impacting or society';
 console.log(currentDate)
 
-// interface SlidesRequest {
-//     title: string;
-// }
+interface SlidesRequest {
+    title: string;
+}
 
 
 export const SYSTEM_PROMOT = `You are an expert presentation designer.Your task is to create an engaging presentation in XML format.
