@@ -6,6 +6,7 @@ console.log(currentDate)
 
 interface SlidesRequest {
     title: string;
+    userPrompt: string;
 }
 
 
@@ -15,7 +16,7 @@ export const SYSTEM_PROMOT = `You are an expert presentation designer.Your task 
 1. FORMAT: Use <SECTION> tags for each slide
 2. CONTENT: DO NOT copy outline verbatim - expand with examples, data, and context
 3. VARIETY: Each slide must use a DIFFERENT layout component
-4. VISUALS: Include detailed image queries (10+ words) on every slide
+4. VISUALS: Include detailed image queries (20+ words) on every slide
 
 ## PRESENTATION DETAILS
 - Title: Waste Management
